@@ -15,6 +15,9 @@
 
         <link rel="stylesheet" href="assets/css/fontawesome.css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 
         <!-- Icon Font Stylesheet -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -25,8 +28,14 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
         <!-- Include Bootstrap CSS and Owl Carousel CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -38,7 +47,7 @@
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <div class="spinner-border" style="width: 3rem; height: 3rem; color:#46A5C3" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
@@ -58,8 +67,8 @@
                 </div>
                 <div class="col-lg-4 text-center text-lg-end">
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
-                        <a href="tel:+919886078955"><small class="me-3 text-light" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600;"><i class="fa fa-phone me-2"></i>+91 9886078955</small></a>
-                        <a href="mailto:careerguidance360.in@gmail.com"><small class="me-3 text-light" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600;"><i class="fa fa-envelope me-2"></i>careerguidance360.in@gmail.com</small></a>
+                        <a href="tel:+919886078955"><small class="me-3" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600; color:#46A5C3;"><i class="fa fa-phone me-2" style="color: #FFFFFF"></i>+91 9886078955</small></a>
+                        <a href="mailto:careerguidance360.in@gmail.com"><small class="me-3" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600; color:#46A5C3;"><i class="fa fa-envelope me-2" style="color: #FFFFFF"></i>careerguidance360.in@gmail.com</small></a>
                     </div>
                 </div>
             </div>
@@ -219,6 +228,36 @@
             </div>
         </div>
         <!-- About End -->
+
+        <!-- Fact Start -->
+        <div class="container-fluid fact bg-dark my-5 py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-users fa-2x text-white mb-3"></i>
+                        
+                        <h2 class="text-white mb-2" data-toggle="counter-up">10K+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">students consulted</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">5K+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Admissions Done</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-university fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">300+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Associated Institutes</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-handshake fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">19</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Glorious Years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
 
         <!-- Services Start -->
         <!-- <div class="container-fluid bg-light service py-5">
@@ -393,94 +432,155 @@
 
         
         <!-- Services End -->
-
-        
-
-
-
-        <!-- Blog Start -->
-        <!-- <div class="container-fluid blog py-5">
-            <div class="container py-5">
-                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                    <h5 class="section-title px-3">Our Blog</h5>
-                    <h1 class="mb-4">Popular Travel Blogs</h1>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt tenetur sapiente atque. Magni non explicabo beatae sit, vel reiciendis consectetur numquam id similique sunt error obcaecati ducimus officia maiores.
-                    </p>
+        <!-- <div class="container-fluid py-5 px-4 px-lg-0">
+            <div class="row g-0">
+                <div class="col-lg-3 d-none d-lg-flex">
+                    <div class="d-flex align-items-center justify-content-center w-100 h-100" style="background-color: #223146;">
+                        <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">19 Years Experience</h1>
+                    </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="img/blog-1.jpg" alt="Image">
-                                    <div class="blog-icon">
-                                        <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                                <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
-                                </div>
-                            </div>
-                            <div class="blog-content border border-top-0 rounded-bottom p-4">
-                                <p class="mb-3">Posted By: Royal Hamblin </p>
-                                <a href="#" class="h4">Adventures Trip</a>
-                                <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
-                            </div>
+                <div class="col-md-12 col-lg-9">
+                    <div class="ms-lg-5 ps-lg-5">
+                        <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="section-title px-3" style="color: #46A5C3;">Our Services</h6>
+                            <h1 class="mb-5">Explore Our Services</h1>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="img/blog-2.jpg" alt="Image">
-                                    <div class="blog-icon">
-                                        <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
-                                    </div>
+                        <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-water fa-2x text-primary"></i>
                                 </div>
-                                <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
-                                </div>
+                                <h4 class="mb-3">Drain Repair</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                             </div>
-                            <div class="blog-content border border-top-0 rounded-bottom p-4">
-                                <p class="mb-3">Posted By: Royal Hamblin </p>
-                                <a href="#" class="h4">Adventures Trip</a>
-                                <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="img/blog-3.jpg" alt="Image">
-                                    <div class="blog-icon">
-                                        <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
-                                    </div>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-toilet fa-2x text-primary"></i>
                                 </div>
-                                <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                                    <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
-                                </div>
+                                <h4 class="mb-3">Toilet Pipe Repair</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                             </div>
-                            <div class="blog-content border border-top-0 rounded-bottom p-4">
-                                <p class="mb-3">Posted By: Royal Hamblin </p>
-                                <a href="#" class="h4">Adventures Trip</a>
-                                <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-shower fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3">Sewer Line Repair</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-tint fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-3">Water Heater Repair</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
+                                <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
+                                <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div> -->
-        <!-- Blog End -->
+
+        
+
+
+        <div class="container-fluid py-5 px-4 px-lg-0">
+            <div class="row g-0">
+                <div class="col-lg-3 d-none d-lg-flex">
+                    <div class="d-flex align-items-center justify-content-center w-100 h-100" style="background-image: url('img/services-2.jpg'); background-size: cover; background-position: center;">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-9">
+                    <div class="ms-lg-5 ps-lg-5">
+                        <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="section-title px-3" style="color: #46A5C3;">Our Services</h6>
+                            <h1 class="mb-5" style="color:#223146">Shape Your Career With Us</h1>
+                        </div>
+                        <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-search fa-2x" style="color: #223146;"></i>
+                                </div>
+                                <h4 class="mb-3">Explore Career Options with Us</h4>
+                                <p style="color:#46A5C3">Discover various career paths that match your interests and skills for a secure future.</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Personal Assessments</p>
+                                <p class=" fw-medium" style="color:#223146"> <i class="fa fa-check me-2" style="color:#C99B3B"></i>Trending Jobs Info</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Guided Exploration</p>
+                                <a href="" class="btn btn-primary btn-custom-bg w-100 mt-2">Read More<i class="fa fa-arrow-right ms-2" ></i></a>
+                            </div>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-university fa-2x " style="color: #223146;"></i>
+                                </div>
+                                <h4 class="mb-3">Course & College Selection</h4>
+                                <p style="color:#46A5C3">Get expert advice on the best courses and colleges suited to your career ambitions.</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Top Institutes List</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Admission Guidance</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Eligibility Details</p>
+                                <a href="" class="btn btn-primary btn-custom-bg w-100 mt-2">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-briefcase fa-2x" style="color: #223146;"></i>
+                                </div>
+                                <h4 class="mb-3">Resume & Interview Prep</h4>
+                                <p style="color:#46A5C3">Build winning resumes and sharpen your interview skills with industry experts.</p>
+                                <p class="fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Professional Resume Tips</p>
+                                <p class="fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Mock Interviews</p>
+                                <p class="fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Feedback & Guidance</p>
+                                <a href="" class="btn btn-primary btn-custom-bg w-100 mt-2">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                            <div class="bg-light p-4">
+                                <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                                    <i class="fa fa-graduation-cap fa-2x" style="color: #223146;"></i>
+                                </div>
+                                <h4 class="mb-3">Scholarships & Exam Guidance</h4>
+                                <p style="color:#46A5C3">Find scholarships and entrance exam guidance to support your education financially.</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check  me-2" style="color:#C99B3B"></i>Scholarship Alerts</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check  me-2" style="color:#C99B3B"></i>Exam Preparation Tips</p>
+                                <p class=" fw-medium" style="color:#223146"><i class="fa fa-check me-2" style="color:#C99B3B"></i>Application Assistance</p>
+                                <a href="" class="btn btn-primary btn-custom-bg w-100 mt-2">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <section class="faq-section py-5">
+            <div class="container">
+            <h2 class="faq-title text-center mb-2" style="color:#223146">Frequently Asked Questions</h2>
+            <div class="faq-subtitle text-center mb-4" style="color:#46A5C3">
+                If you're uncertain or have questions, relax — we're here to support you every step of the way.
+            </div>
+            <div class="row g-4 faq-list-row">
+                <div class="col-12 col-md-6" id="faq-left"></div>
+                <div class="col-12 col-md-6" id="faq-right"></div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-primary btn-custom-bg px-5 py-2 faq-all-btn">
+                View All
+                </button>
+            </div>
+            </div>
+        </section>
 
 
         <!-- Contact Start -->
@@ -494,26 +594,26 @@
                     <div class="col-lg-4">
                         <div class="bg-white rounded p-4">
                             <div class="text-center mb-4">
-                                <i class="fa fa-map-marker-alt fa-3x" style="color:#223146"></i>
-                                <h4 style="color:#46A5C3"><Address>Address</Address></h4>
-                                <p class="mb-0">No 99/100, Residency Road <br> Bangalore - 56002</p>
+                                <i class="fa fa-map-marker-alt fa-3x" style="color:#C99B3B"></i>
+                                <h4 style="color:#223146"><Address>Address</Address></h4>
+                                <p class="mb-0" style="color:#46A5C3">No 99/100, Residency Road <br> Bangalore - 56002</p>
                             </div>
                             <div class="text-center mb-4">
-                                <i class="fa fa-phone-alt fa-3x mb-3" style="color:#223146"></i>
-                                <h4 style="color:#46A5C3">Mobile</h4>
-                                <p class="mb-0">+91 9886078955</p>
-                                <p class="mb-0">+91 9845052021</p>
+                                <i class="fa fa-phone-alt fa-3x mb-3" style="color:#C99B3B"></i>
+                                <h4 style="color:#223146">Mobile</h4>
+                                <p class="mb-0" style="color:#46A5C3">+91 9886078955</p>
+                                <p class="mb-0" style="color:#46A5C3">+91 9845052021</p>
                             </div>
                            
                             <div class="text-center">
-                                <i class="fa fa-envelope-open fa-3x mb-3" style="color:#223146"></i>
-                                <h4 style="color:#46A5C3">Email</h4>
-                                <p class="mb-0">careerguidance360.in@gmail.com</p>
+                                <i class="fa fa-envelope-open fa-3x mb-3" style="color:#C99B3B"></i>
+                                <h4 style="color:#223146">Email</h4>
+                                <p class="mb-0" style="color:#46A5C3">careerguidance360.in@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <h2 class="mb-3" style="color:#223146" >Send us a message</h2>
+                        <h2 class="mb-3" style="color:#C99B3B" >Send us a message</h2>
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -561,77 +661,78 @@
         
         <!-- Testimonial Section -->
         <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-            <h5 class="section-title px-3" style="color:#46A5C3">Testimonial</h5>
-            <h1 class="mb-0" style="color:#223146">Our Students Says!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-            <!-- Testimonial Item -->
-            <div class="testimonial-item text-center px-3">
-                <div class="testimonial-text bg-light text-center p-4 mb-4 rounded shadow-sm">
-                <p class="mb-0">"The career consultancy at Career Guidance helped me seamlessly from choosing the right Engineering stream to landing my dream job. Their personalized approach and expert advice were invaluable!"</p>
+            <div class="container">
+                <div class="text-center mb-5">
+                <h5 class="section-title px-3" style="color:#46A5C3">Testimonial</h5>
+                <h1 class="mb-0" style="color:#223146">Our Students Says!</h1>
                 </div>
-                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer3.jpg" style="width: 80px; height: 80px;" alt="Client 1" />
-                <div class="mb-2">
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
+                <div class="owl-carousel testimonial-carousel position-relative">
+                <!-- Testimonial Item -->
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"The career consultancy at Career Guidance helped me seamlessly from choosing the right Engineering stream to landing my dream job. Their personalized approach and expert advice were invaluable!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer3.jpg" style="width: 80px; height: 80px;" alt="Client 1" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">David</h5>
+                    <p class="m-0" style="color: #46A5C3;">MBBS Aspirant</p>
                 </div>
-                <h5 class="mb-1">David</h5>
-                <p class="m-0">MBBS Aspirant</p>
-            </div>
-            <!-- Repeat testimonial items as needed -->
-            <div class="testimonial-item text-center px-3">
-                <div class="testimonial-text bg-light text-center p-4 mb-4 rounded shadow-sm">
-                <p class="mb-0">"Career Guidance and its experts helped me navigate the complexities of MBBS admissions effortlessly. Their comprehensive support ensured I got into my preferred medical college, making my dream of becoming a doctor a reality"</p>
+                <!-- Repeat testimonial items as needed -->
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"Career Guidance and its experts helped me navigate the complexities of MBBS admissions effortlessly. Their comprehensive support ensured I got into my preferred medical college, making my dream of becoming a doctor a reality"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer9.jpg" style="width: 80px; height: 80px;" alt="Client 2" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Sunil Kumar</h5>
+                    <p class="m-0" style="color: #46A5C3;">B.Tech</p>
                 </div>
-                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer9.jpg" style="width: 80px; height: 80px;" alt="Client 2" />
-                <div class="mb-2">
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"I am grateful to them for their insightful counseling that led me to pursue B.Tech in Computer Science. Their guidance on course selection and career prospects was spot on!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer4.jpg" style="width: 80px; height: 80px;" alt="Client 3" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Arjun</h5>
+                    <p class="m-0" style="color: #46A5C3;">BE Student</p>
                 </div>
-                <h5 class="mb-1">Sunil Kumar</h5>
-                <p class="m-0">B.Tech</p>
-            </div>
-            <div class="testimonial-item text-center px-3">
-                <div class="testimonial-text bg-light text-center p-4 mb-4 rounded shadow-sm">
-                <p class="mb-0">"I am grateful to them for their insightful counseling that led me to pursue B.Tech in Computer Science. Their guidance on course selection and career prospects was spot on!"</p>
+                <div class="testimonial-item text-center px-3">
+                    <div class="text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"Their guidance during my MBBS entrance preparation was exceptional. They provided structured study plans and mock tests that significantly boosted my confidence."</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer5.jpg" style="width: 80px; height: 80px;" alt="Client 4" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Venu Gopal</h5>
+                    <p class="m-0" style="color: #46A5C3;">Medical PG Student</p>
                 </div>
-                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer4.jpg" style="width: 80px; height: 80px;" alt="Client 3" />
-                <div class="mb-2">
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
                 </div>
-                <h5 class="mb-1">Arjun</h5>
-                <p class="m-0">BE Student</p>
-            </div>
-            <div class="testimonial-item text-center px-3">
-                <div class="testimonial-text bg-light text-center p-4 mb-4 rounded shadow-sm">
-                <p class="mb-0">"Their guidance during my MBBS entrance preparation was exceptional. They provided structured study plans and mock tests that significantly boosted my confidence."</p>
-                </div>
-                <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer5.jpg" style="width: 80px; height: 80px;" alt="Client 4" />
-                <div class="mb-2">
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                <small class="fa fa-star" style="color:#FFD700"></small>
-                </div>
-                <h5 class="mb-1">Venu Gopal</h5>
-                <p class="m-0">Medical PG Student</p>
-            </div>
             </div>
         </div>
-        </div>
+        <!-- Testimonial End -->
 
 
         <!-- Subscribe Start -->
@@ -658,44 +759,44 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Get In Touch</h4>
-                            <a href=""><i class="fas fa-home me-2"></i>No 99/100, Residency Road Bangalore - 560025</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> careerguidance360.in@gmail.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +91 9886078955</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +919845052021</a>
+                            <a href=""><i class="fas fa-home me-2" style="color: #46A5C3;"></i>No 99/100, Residency Road Bangalore - 560025</a>
+                            <a href=""><i class="fas fa-envelope me-2" style="color: #46A5C3;"></i> careerguidance360.in@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2" style="color: #46A5C3;"></i> +91 9886078955</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2" style="color: #46A5C3;"></i> +919845052021</a>
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-white me-2"></i>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <i class="fas fa-share fa-2x me-2" style="color: #46A5C3;"></i>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Company</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Courses</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Blog</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Colleges</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> About</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Courses</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Blog</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Colleges</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Contact</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Opening Hours</h4>
                             <h6 class="text-light">Monday - Friday:</h6>
-                            <p class="mb-4">09.00 AM - 09.00 PM</p>
+                            <p class="mb-4" style="color: #46A5C3;">09.00 AM - 09.00 PM</p>
                             <h6 class="text-light">Saturday - Sunday:</h6>
-                            <p class="mb-0">09.00 AM - 12.00 PM</p>
+                            <p class="mb-0" style="color: #46A5C3;">09.00 AM - 12.00 PM</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Stay ahead with expert career insights, college updates, and the latest guidance from our counsellors.</p>
+                    <p style="color: #46A5C3;">Stay ahead with expert career insights, college updates, and the latest guidance from our counsellors.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <button type="button" class="btn btn-primary btn-custom-bg py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
                 </div>
@@ -704,11 +805,11 @@
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright text-body py-4" style="background-color: #223146;">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-end mb-md-0">
-                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Career Guidance</a>, All right reserved.
+        <div class="container-fluid copyright text-body py-4" >
+            <div class="container" >
+                <div class="row g-4 align-items-center" >
+                    <div class="col-md-6 text-center text-md-end mb-md-0" style="color: #46A5C3;">
+                        <i class="fas fa-copyright me-2" ></i><a class="text-white" href="#">Career Guidance</a>, All right reserved.
                     </div>
                 </div>
             </div>
@@ -716,7 +817,7 @@
         <!-- Copyright End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a href="#" class="btn btn-primary btn-custom-bg btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
         
         <!-- JavaScript Libraries -->
@@ -724,6 +825,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
         
 
         <!-- Template Javascript -->
@@ -784,6 +893,68 @@
             });
         });
         </script>
+        
+    <script>
+        const faqs = [
+        {
+            question: "What does a career consultancy do?",
+            answer: "A career consultancy provides expert guidance to help students and professionals choose the right career path, develop their skills, and achieve their academic or professional goals. Services may include career counselling, college admissions guidance, resume writing, interview preparation, and industry insights."
+        },
+        {
+            question: "Why Carrer Guidance Conultancy is the best?",
+            answer: "Career consultants help you discover your strengths, interests, and unique abilities, guiding you to suitable paths where you will thrive."
+        },
+        {
+            question: "How is your consulting service different from others?",
+            answer: "Our experienced counselors provide personalized guidance rooted in up-to-date industry trends and individualized attention, helping each client achieve their unique objectives."
+        },
+        {
+            question: "What does a career consultancy do?",
+            answer: "A career consultancy provides expert guidance to help students and professionals choose the right career path, develop their skills, and achieve their academic or professional goals. Services may include career counselling, college admissions guidance, resume writing, interview preparation, and industry insights."
+        },
+        {
+            question: "Why Carrer Guidance Conultancy is the best?",
+            answer: "Career consultants help you discover your strengths, interests, and unique abilities, guiding you to suitable paths where you will thrive."
+        },
+        {
+            question: "How is your consulting service different from others?",
+            answer: "Our experienced counselors provide personalized guidance rooted in up-to-date industry trends and individualized attention, helping each client achieve their unique objectives."
+        },
+        ];
+
+        let openIndex = null;
+
+        function renderFAQs() {
+        function createFAQBlock(faq, idx) {
+            return `
+            <div class="faq-accordion-block">
+                <div class="faq-card d-flex align-items-center justify-content-between" data-idx="${idx}">
+                <div class="faq-question">${faq.question}</div>
+                <div class="faq-icon">
+                    <i class="${openIndex === idx ? 'fa fa-minus' : 'fa fa-plus'}"></i>
+                </div>
+                </div>
+                ${openIndex === idx ? `<div class="faq-answer" style="color:#46A5C3">${faq.answer}</div>` : ''}
+            </div>
+            `;
+        }
+        document.getElementById('faq-left').innerHTML = faqs.slice(0,3).map((f,i)=>createFAQBlock(f,i)).join('');
+        document.getElementById('faq-right').innerHTML = faqs.slice(3,6).map((f,i)=>createFAQBlock(f,i+3)).join('');
+
+        // Add event listeners
+        document.querySelectorAll('.faq-card').forEach(card => {
+            card.onclick = function() {
+            const idx = parseInt(this.getAttribute('data-idx'));
+            openIndex = openIndex === idx ? null : idx;
+            renderFAQs();
+            };
+        });
+        }
+
+        // Initial render
+        renderFAQs();
+    </script>
+
 
 
 
