@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Travela - Tourism Website Template</title>
+        <title>Career Guidance</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -13,33 +13,52 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
 
+        <link rel="stylesheet" href="assets/css/fontawesome.css">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
         <!-- Icon Font Stylesheet -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Include Bootstrap CSS and Owl Carousel CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        
     </head>
 
     <body>
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <div class="spinner-border" style="width: 3rem; height: 3rem; color:#46A5C3" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
         <!-- Spinner End -->
 
         <!-- Topbar Start -->
-        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="container-fluid px-5 d-none d-lg-block" style="background-color: #223146;">
             <div class="row gx-0">
                 <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
-                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="" ><i class="fab fa-x-twitter"></i></a>
                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
@@ -48,30 +67,22 @@
                 </div>
                 <div class="col-lg-4 text-center text-lg-end">
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
-                        <a href="#"><small class="me-3 text-light"><i class="fa fa-user me-2"></i>Register</small></a>
-                        <a href="#"><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>Login</small></a>
-                        <div class="dropdown">
-                            <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i class="fa fa-home me-2"></i> My Dashboard</small></a>
-                            <div class="dropdown-menu rounded">
-                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
-                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
-                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
-                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
-                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
-                            </div>
-                        </div>
+                        <a href="tel:+919886078955"><small class="me-3" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600; color:#46A5C3;"><i class="fa fa-phone me-2" style="color: #FFFFFF"></i>+91 9886078955</small></a>
+                        <a href="mailto:careerguidance360.in@gmail.com"><small class="me-3" style="font-family: 'Nunito Sans', sans-serif; font-weight: 600; color:#46A5C3;"><i class="fa fa-envelope me-2" style="color: #FFFFFF"></i>careerguidance360.in@gmail.com</small></a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Topbar End -->
 
+        
+
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Travela</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="">
+                    <img src="img/logo-white.png" id="navbar-logo-white" alt="Logo" style="height: 110px; width: 120px;">
+                    <img src="img/logo-black.png" id="navbar-logo-black" alt="Logo" style="height: 110px; width: 120px; display: none;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -80,186 +91,348 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="services.html" class="nav-item nav-link">Services</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Colleges</a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item">Top Engineering Colleges</a>
+                                <a href="#" class="dropdown-item">Top Private Medical Colleges</a>
+                                <a href="#" class="dropdown-item">Top Private Medical PG Colleges</a>
+                                <a href="#" class="dropdown-item">Top MBBS Colleges in Karnataka</a>
+                                <a href="#" class="dropdown-item">Top Private Medical Colleges in Telangana</a>
+                                <a href="#" class="dropdown-item">Top Private Medical Colleges in Andhra Pradesh</a>
+                                <!-- Add more college types as needed -->
+                            </div>
+                        </div>
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item">MBBS</a>
+                                <a href="#" class="dropdown-item">Medical PG</a>
+                                <a href="#" class="dropdown-item">Engineering</a>
+                                <!-- Add more courses as needed -->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link ">Contact</a>
                     </div>
-                    <a href="https://htmlcodex.com/downloading/?item=3232" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Buy Pro Version</a>
+                    <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4" style="background-color: #223146;">Register now!</a> -->
                 </div>
             </nav>
         </div>
         <!-- Navbar & Hero End -->
 
+
+
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb-about">
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-white display-3 mb-4">About Us</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active text-white">About</li>
                 </ol>    
             </div>
         </div>
         <!-- Header End -->
 
-        <!-- About Start -->
         <div class="container-fluid about py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
-                        <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
-                            <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="">
+                        <div class="h-100" style="border: 50px solid; border-color: transparent #223146 transparent #223146;">
+                            <img src="img/about-8.jpg" class="img-fluid w-100 h-100" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
-                        <h5 class="section-about-title pe-3">About Us</h5>
-                        <h1 class="mb-4">Welcome to <span class="text-primary">Travela</span></h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque iste consectetur. Commodi odit ab saepe!</p>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero numquam perferendis provident placeat molestiae quia?</p>
+                        <h5 class="section-about-title pe-3" style="color: #46A5C3; font-size:1.0rem;">About Us</h5>
+                        <h1 class="mb-4" style="color: #223146; font-size: 2.0rem; font-weight: 700;">What make us the best Carrer Consultancy</h1>
+                        <p class="mb-4">Aspiring MBBS and engineering students who are preparing to graduate stand out with significant achievements. Each path offers distinctive challenges that shape them into leaders who hold up societal morals in their respective fields.</p>
+                        <p class="mb-4">While you start this journey of education it becomes a testament to your ambition, curiosity, and commitment to serve society with excellence. Whether you are pursuing medicine or engineering, you are not just acquiring knowledge, you are becoming a person who can make a tangible impact on the world.</p>
                         <div class="row gy-2 gx-4 mb-4">
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>Personalized Expert Guidance</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>Tailored Educational Pathways</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>Trusted Industry Connections</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>Exclusive Scholarship Opportunities</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>Comprehensive Admission Support</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                                <p class="mb-0"><i class="fa fa-arrow-right me-2" style="color: #46A5C3;"></i>24/7 Dedicated Student Assistance</p>
                             </div>
                         </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
 
-        <!-- Subscribe Start -->
-        <div class="container-fluid subscribe py-5">
-            <div class="container text-center py-5">
-                <div class="mx-auto text-center" style="max-width: 900px;">
-                    <h5 class="subscribe-title px-3">Subscribe</h5>
-                    <h1 class="text-white mb-4">Our Newsletter</h1>
-                    <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.
+        
+        <section class="about-cg-modern">
+            <div class="container">
+                <div class="row align-items-start">
+                <!-- Left: Photo with diagonal mask -->
+                <div class="col-lg-6 col-md-12 image-diagonal-holder">
+                    <div class="image-diagonal-bg">
+                    <img src="img/about-01.jpg" alt="About Career Guidance" class="img-fluid" />
+                    </div>
+                </div>
+                <!-- Right: Headline, text, stats -->
+                <div class="col-lg-6 col-md-12 ps-lg-5 pt-4 pt-lg-0" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
+                    <h2 class="about-title">About Career Guidance</h2>
+                    <p class="about-description">
+                    Career Guidance is a distinguished consultancy firm founded in the year 2005. Specialized in offering admission guidance to aspiring MBBS, Medical PG, Engineering B.Tech, and M.Tech students in Bangalore, Guiding and assisting our students to effectively navigate the intricacies of applying for and securing admissions to the top institutions.
                     </p>
-                    <div class="position-relative mx-auto">
-                        <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                    <div class="about-stats d-flex mt-4">
+                    <div class="stat-card">
+                        <div class="stat">
+                        <div class="stat-value">20,000</div>
+                        <div class="stat-label">undergraduate and graduate students</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat">
+                        <div class="stat-value">16,214</div>
+                        <div class="stat-label">Unipix University Faculty and Staff</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat">
+                        <div class="stat-value">300k</div>
+                        <div class="stat-label">Unipix Alumni Worldwide</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid fact bg-dark my-5 py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-users fa-2x text-white mb-3"></i>
+                        
+                        <h2 class="text-white mb-2" data-toggle="counter-up">10K+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">students consulted</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">5K+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Admissions Done</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-university fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">300+</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Associated Institutes</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-handshake fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">19</h2>
+                        <p class="text-white mb-0" style="font-size: 20px;">Glorious Years</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Subscribe End -->
+
+        <section class="rts-mission bg-light mission-modern-section">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                <div class="rts-section mb-4">
+                    <h2 class="rts-section-title" style="color: #223146; font-size: 2.0rem; font-weight: 700;">Mission and Values</h2>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="mission-timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-card left">
+                        <div class="timeline-icon">
+                        <img src="img/mission-1.png" alt="logo">
+                        </div>
+                        <div class="timeline-content">
+                        <h5 class="timeline-title" style="color:#223146">Expert Advice</h5>
+                        <p style="color:#46A5C3">We have skilled professionals who bring knowledge to the table, they concentrate on understanding the field and are well-informed about the opportunities that the students can acquire.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-card left">
+                        <div class="timeline-icon">
+                        <img src="img/mission-3.png" alt="logo">
+                        </div>
+                        <div class="timeline-content">
+                        <h5 class="timeline-title" style="color:#223146">Distinctive Services</h5>
+                        <p style="color:#46A5C3">Our services are carefully curated helping students from the time of initial career counseling to applying to their dream institutions.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-card right">
+                        <div class="timeline-icon">
+                        <img src="img/mission-4.png" alt="logo">
+                        </div>
+                        <div class="timeline-content">
+                        <h5 class="timeline-title" style="color:#223146">Individual Attention</h5>
+                        <p style="color:#46A5C3">We understand that every student is unique and therefore our customizable service leaves no student left out, we help them understand their strength, and career aspirations as they make decisions about their long-term goals.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-card right">
+                        <div class="timeline-icon">
+                        <img src="img/mission-5.png" alt="logo">
+                        </div>
+                        <div class="timeline-content">
+                        <h5 class="timeline-title" style="color:#223146">Resource Access</h5>
+                        <p style="color:#46A5C3">We provide our students with top resources including study materials, test preparation guides, and college application tips.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                <h5 class="section-title px-3" style="color:#46A5C3">Testimonial</h5>
+                <h1 class="mb-0" style="color:#223146">Our Students Says!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel position-relative">
+                <!-- Testimonial Item -->
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"The career consultancy at Career Guidance helped me seamlessly from choosing the right Engineering stream to landing my dream job. Their personalized approach and expert advice were invaluable!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer3.jpg" style="width: 80px; height: 80px;" alt="Client 1" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">David</h5>
+                    <p class="m-0" style="color: #46A5C3;">MBBS Aspirant</p>
+                </div>
+                <!-- Repeat testimonial items as needed -->
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"Career Guidance and its experts helped me navigate the complexities of MBBS admissions effortlessly. Their comprehensive support ensured I got into my preferred medical college, making my dream of becoming a doctor a reality"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer9.jpg" style="width: 80px; height: 80px;" alt="Client 2" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Sunil Kumar</h5>
+                    <p class="m-0" style="color: #46A5C3;">B.Tech</p>
+                </div>
+                <div class="testimonial-item text-center px-3">
+                    <div class=" text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"I am grateful to them for their insightful counseling that led me to pursue B.Tech in Computer Science. Their guidance on course selection and career prospects was spot on!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer4.jpg" style="width: 80px; height: 80px;" alt="Client 3" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Arjun</h5>
+                    <p class="m-0" style="color: #46A5C3;">BE Student</p>
+                </div>
+                <div class="testimonial-item text-center px-3">
+                    <div class="text-center p-4 mb-4 rounded shadow-sm" style="background-color: #46A5C3;">
+                    <p class="mb-0" style="color: #ffffff;">"Their guidance during my MBBS entrance preparation was exceptional. They provided structured study plans and mock tests that significantly boosted my confidence."</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/customer5.jpg" style="width: 80px; height: 80px;" alt="Client 4" />
+                    <div class="mb-2">
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    <small class="fa fa-star" style="color:#C99B3B"></small>
+                    </div>
+                    <h5 class="mb-1" style="color: #223146">Venu Gopal</h5>
+                    <p class="m-0" style="color: #46A5C3;">Medical PG Student</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5">
+        <div class="container-fluid footer py-5" style="background-color: #223146;">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Get In Touch</h4>
-                            <a href=""><i class="fas fa-home me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                            <a href=""><i class="fas fa-home me-2" style="color: #46A5C3;"></i>No 99/100, Residency Road Bangalore - 560025</a>
+                            <a href=""><i class="fas fa-envelope me-2" style="color: #46A5C3;"></i> careerguidance360.in@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2" style="color: #46A5C3;"></i> +91 9886078955</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2" style="color: #46A5C3;"></i> +919845052021</a>
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-white me-2"></i>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <i class="fas fa-share fa-2x me-2" style="color: #46A5C3;"></i>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary btn-custom-bg rounded-circle mx-1" href="" style="background-color: #C99B3B"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Company</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Careers</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Blog</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Press</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Gift Cards</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a>
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> About</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Courses</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Blog</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Colleges</a>
+                            <a href=""><i class="fas fa-angle-right me-2" style="color: #46A5C3;"></i> Contact</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Support</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Legal Notice</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms and Conditions</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Sitemap</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Cookie policy</a>
+                            <h4 class="mb-4 text-white">Opening Hours</h4>
+                            <h6 class="text-light">Monday - Friday:</h6>
+                            <p class="mb-4" style="color: #46A5C3;">09.00 AM - 09.00 PM</p>
+                            <h6 class="text-light">Saturday - Sunday:</h6>
+                            <p class="mb-0" style="color: #46A5C3;">09.00 AM - 12.00 PM</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <div class="row gy-3 gx-2 mb-4">
-                                <div class="col-xl-6">
-                                    <form>
-                                        <div class="form-floating">
-                                            <select class="form-select bg-dark border" id="select1">
-                                                <option value="1">Arabic</option>
-                                                <option value="2">German</option>
-                                                <option value="3">Greek</option>
-                                                <option value="3">New York</option>
-                                            </select>
-                                            <label for="select1">English</label>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="col-xl-6">
-                                    <form>
-                                        <div class="form-floating">
-                                            <select class="form-select bg-dark border" id="select1">
-                                                <option value="1">USD</option>
-                                                <option value="2">EUR</option>
-                                                <option value="3">INR</option>
-                                                <option value="3">GBP</option>
-                                            </select>
-                                            <label for="select1">$</label>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <h4 class="text-white mb-3">Payments</h4>
-                            <div class="footer-bank-card">
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
-                                <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
-                            </div>
-                        </div>
+                    <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p style="color: #46A5C3;">Stay ahead with expert career insights, college updates, and the latest guidance from our counsellors.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary btn-custom-bg py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright text-body py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-end mb-md-0">
-                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Your Site Name</a>, All right reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-start">
-                        <!--/*** The author’s attribution link must remain intact in the template. ***/-->
-                        <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                        Designed By <a class="text-white" href="https://htmlcodex.com">HTML Codex</a>
+        <div class="container-fluid copyright text-body py-4" >
+            <div class="container" >
+                <div class="row g-4 align-items-center" >
+                    <div class="col-md-6 text-center text-md-end mb-md-0" style="color: #46A5C3;">
+                        <i class="fas fa-copyright me-2" ></i><a class="text-white" href="#">Career Guidance</a>, All right reserved.
                     </div>
                 </div>
             </div>
@@ -267,18 +440,146 @@
         <!-- Copyright End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a href="#" class="btn btn-primary btn-custom-bg btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
         
+        
+        <!-- JavaScript Libraries -->
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
+        <script>
+            window.addEventListener('scroll', function() {
+                var scrolled = window.scrollY > 50; // Adjust 50 as needed
+                document.getElementById('navbar-logo-white').style.display = scrolled ? 'none' : 'block';
+                document.getElementById('navbar-logo-black').style.display = scrolled ? 'block' : 'none';
+            });
+        </script>
+        <script>
+            var swiper = new Swiper('.testimonial-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            loop: true,
+            speed: 800,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            breakpoints: {
+                768: {
+                slidesPerView: 2
+                },
+                1200: {
+                slidesPerView: 3
+                }
+            }
+            });
+        </script>
         
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- Include FontAwesome for stars -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <!-- Include jQuery and Owl Carousel JS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script>
+        $(document).ready(function () {
+            $('.testimonial-carousel').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 700,
+            responsive: {
+                0: { items: 1 },
+                576: { items: 1 },
+                768: { items: 2 },
+                992: { items: 3 }
+            }
+            });
+        });
+        </script>
+        
+        <script>
+            const faqs = [
+            {
+                question: "What does a career consultancy do?",
+                answer: "A career consultancy provides expert guidance to help students and professionals choose the right career path, develop their skills, and achieve their academic or professional goals. Services may include career counselling, college admissions guidance, resume writing, interview preparation, and industry insights."
+            },
+            {
+                question: "Why Carrer Guidance Conultancy is the best?",
+                answer: "Career consultants help you discover your strengths, interests, and unique abilities, guiding you to suitable paths where you will thrive."
+            },
+            {
+                question: "How is your consulting service different from others?",
+                answer: "Our experienced counselors provide personalized guidance rooted in up-to-date industry trends and individualized attention, helping each client achieve their unique objectives."
+            },
+            {
+                question: "What does a career consultancy do?",
+                answer: "A career consultancy provides expert guidance to help students and professionals choose the right career path, develop their skills, and achieve their academic or professional goals. Services may include career counselling, college admissions guidance, resume writing, interview preparation, and industry insights."
+            },
+            {
+                question: "Why Carrer Guidance Conultancy is the best?",
+                answer: "Career consultants help you discover your strengths, interests, and unique abilities, guiding you to suitable paths where you will thrive."
+            },
+            {
+                question: "How is your consulting service different from others?",
+                answer: "Our experienced counselors provide personalized guidance rooted in up-to-date industry trends and individualized attention, helping each client achieve their unique objectives."
+            },
+            ];
+
+            let openIndex = null;
+
+            function renderFAQs() {
+            function createFAQBlock(faq, idx) {
+                return `
+                <div class="faq-accordion-block">
+                    <div class="faq-card d-flex align-items-center justify-content-between" data-idx="${idx}">
+                    <div class="faq-question">${faq.question}</div>
+                    <div class="faq-icon">
+                        <i class="${openIndex === idx ? 'fa fa-minus' : 'fa fa-plus'}"></i>
+                    </div>
+                    </div>
+                    ${openIndex === idx ? `<div class="faq-answer" style="color:#46A5C3">${faq.answer}</div>` : ''}
+                </div>
+                `;
+            }
+            document.getElementById('faq-left').innerHTML = faqs.slice(0,3).map((f,i)=>createFAQBlock(f,i)).join('');
+            document.getElementById('faq-right').innerHTML = faqs.slice(3,6).map((f,i)=>createFAQBlock(f,i+3)).join('');
+
+            // Add event listeners
+            document.querySelectorAll('.faq-card').forEach(card => {
+                card.onclick = function() {
+                const idx = parseInt(this.getAttribute('data-idx'));
+                openIndex = openIndex === idx ? null : idx;
+                renderFAQs();
+                };
+            });
+            }
+
+            // Initial render
+            renderFAQs();
+        </script>
     </body>
 
 </html>
