@@ -400,14 +400,14 @@
     background-repeat: no-repeat;
     background-size: cover;   /* Ensures full coverage */
     background-attachment: scroll; /* Change fixed to scroll for better mobile support */
-    padding: 350px 0 50px 0;
+    padding: 550px 0 50px 0;
     width: 100%;
     height: auto;
 }
 
 @media (max-width: 768px) {
     .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* reduce padding on smaller screens */
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
     }
 }
 
@@ -423,14 +423,14 @@
     background-repeat: no-repeat;
     background-size: cover;   /* Ensures full coverage */
     background-attachment: scroll; /* Change fixed to scroll for better mobile support */
-    padding: 350px 0 50px 0;
+    padding: 550px 0 50px 0;
     width: 100%;
     height: auto;
 }
 
 @media (max-width: 768px) {
     .bg-breadcrumb-about {
-        padding: 100px 0 30px 0; /* reduce padding on smaller screens */
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
     }
 }
 
@@ -439,7 +439,160 @@
     color: #46A5C3 !important;
 }
 
+.bg-breadcrumb-engineering {
+    background-image: url(../img/engineering-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 550px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
 
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-engineering {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-engineering .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+.bg-breadcrumb-ug {
+    background-image: url(../img/ug-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-ug {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-ug .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+.bg-breadcrumb-pg {
+    background-image: url(../img/pg-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-pg {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-pg .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+.bg-breadcrumb-mch-dm {
+    background-image: url(../img/mch-dm-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-mch-dm {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-mch-dm .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+
+.bg-breadcrumb-kar {
+    background-image: url(../img/karnataka-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-kar {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-kar .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+.bg-breadcrumb-telangana {
+    background-image: url(../img/telungana-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-telangana {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-telangana .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
+
+.bg-breadcrumb-ap {
+    background-image: url(../img/telungana-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures full coverage */
+    background-attachment: scroll; /* Change fixed to scroll for better mobile support */
+    padding: 450px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .bg-breadcrumb-ap {
+        padding: 200px 0 30px 0; /* reduce padding on smaller screens */
+    }
+}
+
+.bg-breadcrumb-ap .breadcrumb-item a {
+    color: #46A5C3 !important;
+}
 /*** About Start ***/
 .about .container .section-about-title {
     position: relative;
@@ -1067,3 +1220,55 @@
     margin: 0 0 16px 0 !important;
   }
 }
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #223146;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-btn {
+  background-color: #223146;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+  background-color: #46A5C3;
+  color: #fff;
+}
+
+/* Position nested dropdown */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+
+/* MBBS Section Styling */
+
